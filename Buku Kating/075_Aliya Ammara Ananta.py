@@ -319,4 +319,37 @@ elif menu == "Baleg":
         display_images_with_data(gambar_urls, data_list)
     baleg()
 
-# Tambahkan menu lainnya sesuai kebutuhan
+elif menu == "Senator":
+    def senator():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1Uw4zTtGqIpd3JP1gqi2IFzjBOO4MkDX1", 
+            "https://drive.google.com/uc?export=view&id=13CD8FHbJ1iiXb-4sXpjeO8noJXu-Peua", 
+        ]
+        data_list = [
+            {
+                "nama": "Anissa Luthfi Alifia",
+                "nim": "121450098",
+                "umur": "22",
+                "asal":"Lampung Tengah",
+                "alamat": "Kost Putri Rahayu Indomaret",
+                "hobbi": "Nyanyi",
+                "sosmed": "@anissaluthfi_",
+                "kesan": "Public Speaking kakaknya bagus banget",  
+                "pesan":"Semangat kuliahnya kak"
+            },
+            {
+                "nama": "Rian Bintang Wijaya",
+                "nim": "122450094",
+                "umur": "21",
+                "asal":"Palembang",
+                "alamat": "Kota Baru",
+                "hobbi": "Mendengarkan Lagu",
+                "sosmed": "@bintangtwinkle",
+                "kesan": "Keren bang",  
+                "pesan":"Semangat kuliahnya bang"
+            },
+
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    senator()
+
